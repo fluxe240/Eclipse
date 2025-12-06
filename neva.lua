@@ -901,7 +901,7 @@ desc.Name = "Description"
 desc.Size = UDim2.new(1, -20, 0, 40)
 desc.Position = UDim2.new(0, 10, 0, 50)
 desc.BackgroundTransparency = 1
-desc.Text = "https://github.com/fluxe240/NEVA-steal-a-braintor/blob/main/neva.lua"
+desc.Text = "https://github.com/fluxe240/Eclipse/blob/main/neva.lua"
 desc.TextColor3 = Color3.fromRGB(200, 200, 200)
 desc.TextSize = 14
 desc.Font = Enum.Font.Gotham
@@ -1057,7 +1057,7 @@ local function copyToClipboard(text)
 end
 
 yesButton.MouseButton1Click:Connect(function()
-	local link = "https://github.com/fluxe240/NEVA-steal-a-braintor/blob/main/neva.lua"
+	local link = "https://github.com/fluxe240/Eclipse/blob/main/neva.lua"
 	copyToClipboard(link)
 	hidePrompt()
 end)
