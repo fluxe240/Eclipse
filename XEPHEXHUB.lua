@@ -79,7 +79,7 @@ desc.Name = "Description"
 desc.Size = UDim2.new(1, -20, 0, 40)
 desc.Position = UDim2.new(0, 10, 0, 50)
 desc.BackgroundTransparency = 1
-desc.Text = "https://github.com/fluxe240/XEPHEXHUB/blob/main/open%source"
+desc.Text = "https://github.com/fluxe240/Eclipse/blob/main/XEPHEXHUB%20open%20source.lua"
 desc.TextColor3 = Color3.fromRGB(200, 200, 200)
 desc.TextSize = 14
 desc.Font = Enum.Font.Gotham
@@ -235,7 +235,7 @@ local function copyToClipboard(text)
 end
 
 yesButton.MouseButton1Click:Connect(function()
-	local link = "https://github.com/fluxe240/XEPHEXHUB/blob/main/open%source"
+	local link = "https://github.com/fluxe240/Eclipse/blob/main/XEPHEXHUB%20open%20source.lua"
 	copyToClipboard(link)
 	hidePrompt()
 end)
