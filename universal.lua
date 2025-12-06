@@ -1257,7 +1257,7 @@ desc.Name = "Description"
 desc.Size = UDim2.new(1, -20, 0, 40)
 desc.Position = UDim2.new(0, 10, 0, 50)
 desc.BackgroundTransparency = 1
-desc.Text = "https://github.com/fluxe240/jaran.vip"
+desc.Text = "https://github.com/fluxe240/Eclipse/blob/main/universal.lua"
 desc.TextColor3 = Color3.fromRGB(200, 200, 200)
 desc.TextSize = 14
 desc.Font = Enum.Font.Gotham
@@ -1413,7 +1413,7 @@ local function copyToClipboard(text)
 end
 
 yesButton.MouseButton1Click:Connect(function()
-	local link = "https://raw.githubusercontent.com/fluxe240/jaran.vip/refs/heads/main/jaran.lua"
+	local link = "https://github.com/fluxe240/Eclipse/blob/main/universal.lua"
 	copyToClipboard(link)
 	hidePrompt()
 end)
